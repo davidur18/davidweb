@@ -1,0 +1,102 @@
+.pacles-events{
+	width: 95%;
+	height: 790px;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.placediv{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-size: 14px;
+}
+.placediv1{
+	width: 100%;
+	width: auto;
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+
+.pacles-events li{
+	list-style: none;
+
+}
+.place-title{
+	font-size: 23px;
+  
+}
+
+.placelist2{
+width: 100%;
+padding-bottom:5px; 
+}
+
+.placelist3{
+	width: 100%;
+	
+}
+
+.place-link{
+width: 100%;
+
+
+}
+
+.placediv1 a{
+	text-decoration: none;
+	color: #208EA7;
+}
+.placediv1 a:hover{
+	color: #28A6C2;
+}
+
+.boton-places{
+	margin-top: 40px;
+	margin-bottom: 120px;
+	width: 180px;
+	height: 21px;
+	padding-top: 4px;
+	background-color: white;
+	border-color: #208EA7;
+	border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    text-align: center;
+
+
+   
+}
+
+.boton-places:hover{
+	border-color: #208EA7;
+	background-color: #28A6C2;
+}
+
+.boton-places a{
+	padding: 8px 26px;
+	font-size: 14px;
+	color: #208EA7;
+	text-align: center;
+	text-decoration: none;
+	
+
+}
+
+
+
+@media (min-width: 800px){
+	.pacles-events{
+		width: 45%;
+		float: left;
+		padding-left: 5%;
+	}
+	.places1{
+		width: 70%;
+		padding-left: 20%;
+		padding-right: 10%;
+
+
+	
+}

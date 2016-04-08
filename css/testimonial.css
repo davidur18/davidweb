@@ -1,0 +1,68 @@
+.testimonial{
+	width: 100%;
+	height: 530px;
+	margin-top: 20px;
+	padding-top: 80px;
+	background-image: url("../img/fond-testimonial1.jpg");
+}
+
+.testimonial-txt-lauren{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	font-family: cursive;
+	font-size: 18px;
+	color: #fff;
+}
+
+.name-lauren{
+	font-family: cursive;
+	text-align: center;
+	color: #fff;
+}
+
+.horizontal-testimonial{
+	display: flex;
+	justify-content: center;
+}
+.vertical-testimonial{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@media (min-width: 800px){
+
+	.testimonial{
+		width: 100%;	
+	}
+
+	.testimonial-lauren{
+		width: 100%;
+	}
+	.testimonial-mohit{
+		width: 100%;
+	}
+	.mohit{
+		width: 50%;
+		float: left;
+	}
+	.lauren{
+		width: 50%;
+		float: left;
+	}
+
+	.testimonial-txt-lauren{
+		width: 70%;
+		padding-right: 15%;
+		padding-left: 15%;
+	}	
+}
+
+
+@media (max-width: 800px){
+	.testimonial-mohit{
+		display: none;
+	}
+}
+

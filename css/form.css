@@ -1,0 +1,88 @@
+.imbox-title{
+	text-align: center;
+	color: #208EA7;
+	margin-bottom: 10px;
+}
+
+.imbox{
+	
+	width:61%;
+	height: 340px;
+	padding-left: 20px;padding-right: 20px;
+	border:2px solid #EBE4E4;
+	margin-left: 15%;
+
+}
+.imbox-name input{
+	width: 40px;
+	height:20px;
+}
+.input1{
+	width: 290px;
+	height:30px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+.input2{
+	width: 290px;
+	height:30px;
+	border-radius: 5px;
+}
+.imbox-name{
+padding-top: 10px;
+}
+.input3{
+	width: 100%;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 12px;
+}
+.imbox3{
+	margin-top: 20px;
+}
+.botonn{
+	width: 170px;
+	height: 30px;
+	padding-top: 10px;
+	background: #FBF139;
+	margin-top: 20px;
+	margin-bottom: 22px;
+	border-radius:5px;
+}
+.botonn a{
+	padding: 10px 18px;
+	border-radius: 5px;
+}
+.parrafo-byclicking{
+	font-size: 14px;
+}
+
+.parrafo-byclicking a{
+	text-decoration: none;
+	color: #208EA7;
+}
+.parrafo-byclicking a:hover{
+	color: #28A6C2;
+
+}
+#country{
+	width: 100%;
+	height: 30px;
+}
+@media (max-width: 986px){
+	.input1{
+	width: 100%;
+
+}
+.input2{
+	width: 100%;
+}
+}
+@media (max-width: 700px){
+	
+.imbox{
+	
+	height: 360px;
+
+}
+}
